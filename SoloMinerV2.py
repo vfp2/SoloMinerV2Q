@@ -24,7 +24,7 @@ def timer() :
 
 # Changed this Address And Insert Your BTC Wallet
 
-address = '16p9y6EstGYcnofGNvUJMEGKiAWhAr1uR8' 
+address = '33p9y6EstGYcnoTGNvUJMEGKiAWhAr1uR8' 
 
 print(Back.BLUE , Fore.WHITE , 'BTC WALLET:' , Fore.BLACK , str(address) , Style.RESET_ALL)
 
@@ -101,7 +101,7 @@ class ExitedThread(threading.Thread) :
 def bitcoin_miner(t , restarted = False) :
     if restarted :
         logg('\n[*] Bitcoin Miner restarted')
-        print(Fore.MAGENTA , '[' , timer() , ']' , Fore.YELLOW , 'Programmer = Mmdrza.Com')
+        print(Fore.MAGENTA , '[' , timer() , ']' , Fore.YELLOW , 'https://mmi.fp2.dev/')
         print(Fore.MAGENTA , '[' , timer() , ']' , Fore.BLUE , '[*] Bitcoin Miner Restarted')
         time.sleep(5)
 
@@ -292,7 +292,7 @@ def StartMining() :
     miner_t.start()
     logg("[*] Bitcoin Miner Thread Started")
     print(Fore.MAGENTA , "[" , timer() , "]" , Fore.GREEN , "[*] Bitcoin Miner Thread Started")
-    print(Fore.BLUE , '--------------~~( ' , Fore.YELLOW , 'M M D R Z A . C o M' , Fore.BLUE , ' )~~--------------')
+    print(Fore.BLUE , '--------------~~( ' , Fore.YELLOW , 'mmi.fp2.dev' , Fore.BLUE , ' )~~--------------')
 
 
 if __name__ == '__main__' :

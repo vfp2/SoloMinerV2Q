@@ -1,23 +1,18 @@
-# Solo Miner V2
-New Version Solo Miner with High Speed for mining Bitcoin With all System
----
+# Solo Miner V2Q
+Solo Miner with High Speed for mining Bitcoin With all System experimenting with a quantum algorithm twist.
 
-![Solo Miner V2](https://raw.githubusercontent.com/Pymmdrza/SoloMinerV2/mainx/CaptureScreenSolo.JPG)
 
----
+![Solo Miner V2](https://raw.githubusercontent.com/vfp2/SoloMinerV2Q/mainx/CaptureScreenSolo.JPG)
 
-First install this package :
+Developed using Python 3.11.
+
+First install the required packages :
 ```
-pip install binascii
-pip install traceback
-pip install signal
-pip install requests
-pip install colorama
-pip install lxml
+pip install -r requirements.txt
 ```
 
 
-use this package's imported this source :
+These package imports are used:
 
 ```
 import binascii
@@ -36,23 +31,16 @@ from colorama import Back , Fore , Style
 import context as ctx
 ```
 
-For insert Your BTC Address Wallet in File `SoloMinerV2.py` in Line 27 Changed This Line:
+To insert your BTC Wallet Address in `SoloMinerV2.py` change this line:
 
 ```
 
 # Changed this Address And Insert Your BTC Wallet
 
-address = '16p9y6EstGYcnofGNvUJMEGKiAWhAr1uR8' 
+address = '33p9y6EstGYcnoTGNvUJMEGKiAWhAr1uR8' 
 
 ``` 
 
-for more detail's and about withdraw request follow this issue : #[SOLO.CKPOOL](https://github.com/Pymmdrza/SoloMinerV2/issues/11#issue-1507921524)
+## Credits
 
-----
-
-Programmer Telegram ID [@MrPyMmdrza](https://t.me/MrPyMmdrza)
-
-Programmer Telegram Channel [@Cryptoixer](https://t.me/Cryptoixer)
-
-> **Warning**
-> Unfortunately, due to the ignorance of some dear users, we were not informed that some profiteers and uncultured people are selling some of my scripts at a lower price. And the user does not receive anything after payment. Some of these ignorant people give malicious and viral files to users. From here, I declare that the only official source for selling my scripts is the [website](https://mmdrza.com) and [Telegram ID](https://t.me/MrPyMmdrza) or [Telegram Channel](https://t.me/Cryptoixer).
+Forked from [Solo Miner V2](https://github.com/Pymmdrza/SoloMinerV2) by [@MrPyMmdrza](https://t.me/MrPyMmdrza)
