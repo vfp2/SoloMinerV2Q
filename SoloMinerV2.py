@@ -15,23 +15,23 @@ from colorama import Back , Fore , Style
 
 class Context:
     def __init__(self):
-        fShutdown = False
-        listfThreadRunning = [False] * 2
-        local_height = 0
-        nHeightDiff = {}
-        updatedPrevHash = None
-        job_id = None
-        prevhash = None
-        coinb1 = None
-        coinb2 = None
-        merkle_branch = None
-        version = None
-        nbits = None
-        ntime = None
-        clean_jobs = None
-        sub_details = None
-        extranonce1 = None
-        extranonce2_size = None
+        self.fShutdown = False
+        self.listfThreadRunning = [False] * 2
+        self.local_height = 0
+        self.nHeightDiff = {}
+        self.updatedPrevHash = None
+        self.job_id = None
+        self.prevhash = None
+        self.coinb1 = None
+        self.coinb2 = None
+        self.merkle_branch = None
+        self.version = None
+        self.nbits = None
+        self.ntime = None
+        self.clean_jobs = None
+        self.sub_details = None
+        self.extranonce1 = None
+        self.extranonce2_size = None
 
 ctx = Context()
 
