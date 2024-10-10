@@ -2,6 +2,7 @@ import binascii
 import hashlib
 import json
 import logging
+import os
 import random
 import socket
 import threading
@@ -43,7 +44,7 @@ def timer() :
 
 # Changed this Address And Insert Your BTC Wallet
 
-address = '16p9y6EstGYcnofGNvUJMEGKiAWhAr1uR8'
+address = os.getenv('BC_ADDRESS')
 
 print(Back.BLUE , Fore.WHITE , 'BTC WALLET:' , Fore.BLACK , str(address) , Style.RESET_ALL)
 

@@ -11,35 +11,17 @@ First install the required packages :
 pip install -r requirements.txt
 ```
 
-
-These package imports are used:
-
+To insert your BTC Wallet Address and Private Key copy .env.sample to .env and fill in the values.
 ```
-import binascii
-import hashlib
-import json
-import logging
-import random
-import socket
-import threading
-import time
-import traceback
-from datetime import datetime
-from signal import SIGINT , signal
-import requests
-from colorama import Back , Fore , Style
-import context as ctx
-```
-
-To insert your BTC Wallet Address in `SoloMinerV2.py` change this line:
-
-```
-
-# Changed this Address And Insert Your BTC Wallet
-
-address = '33p9y6EstGYcnoTGNvUJMEGKiAWhAr1uR8' 
-
+BC_ADDRESS=<Bitcoin wallet address>
+BC_KEY=<Bitcoing wallet private key>
 ``` 
+
+To run:
+```
+./run.sh
+```
+or Looper.sh for continually mining.
 
 ## Credits
 
