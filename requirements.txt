@@ -2,3 +2,4 @@ requests
 colorama
 lxml
 qiskit
+qiskit-aer

@@ -1,5 +1,5 @@
 export $(grep -v '^#' .env | xargs)
 while :
 do
-    python3 SoloMinerV2.py
+    python3.11 SoloMinerV2.py
 done

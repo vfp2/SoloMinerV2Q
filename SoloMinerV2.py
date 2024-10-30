@@ -15,9 +15,11 @@ import requests
 from colorama import Back, Fore, Style
 
 # Import Qiskit for quantum computing
-from qiskit import Aer, QuantumCircuit, execute
-from qiskit.algorithms import Grover, AmplificationProblem
-from qiskit.providers.aer import QasmSimulator
+import qiskit
+# from 'qiskit-aer' import Aer
+# from qiskit import Aer, QuantumCircuit, execute
+# from qiskit.algorithms import Grover, AmplificationProblem
+# from qiskit.providers.aer import QasmSimulator
 from hashlib import sha256
 
 
